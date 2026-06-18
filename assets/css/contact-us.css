@@ -1,0 +1,31 @@
+.form-title h6 {
+    color: #108A00;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center; 
+}
+
+.form-title p {
+    color: var(--contact-title);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.contact-content h2, h5  {
+   color: var(--primary-color);
+}
+
+.contact-content p {
+    color:  var(--primary-color);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    margin-bottom: 7px;
+}

@@ -1,0 +1,343 @@
+.sliders-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    text-align: left;
+    margin-right: 20px;
+    color: var(--primary-color);
+}
+
+.sliders-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    color: Gary07;
+}
+
+.hero-background {
+    padding: 80px 0px;
+    background-color:var( --background-color) !important;
+    color: var(--primary-color) !important;
+}
+
+.hero-banner {
+    background-color: #E6EFEB !important;
+}
+
+.hero-card {
+    text-align: -webkit-center;
+    margin-bottom: 30px;
+}
+
+.hero-card img {
+    margin-bottom: 20px;
+}
+
+.hero-card h6 {
+    color: #232323;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.8px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .hero-image {
+        text-align: left;
+    }
+
+    .b-bottom {
+        border-bottom: 0.5px solid #707070 !important;
+        padding: 20px 0px;
+    }
+}
+
+.work-with-us {
+    color: #108A00 !important;
+    font-weight: 600 !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px !important;
+
+    border-radius: 44px;
+    transition: 0.5s;
+    border: 1.5px solid #108A00;
+}
+
+.work-with-us:hover {
+    background-color: #E6EFEB;
+    color: #108A00;
+    border: 1.5px solid #108A00 !important;
+    border-radius: 44px;
+}
+
+/* our services  */
+
+.hero-section {
+    color: #28a745;
+}
+
+.hero-section h2 {
+    color: #108A00;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.81px;
+    text-align: left;
+}
+
+.hero-section p {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+
+}
+
+.our-services h3 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.81px;
+    text-align: left;
+    color: var(--primary-color);
+    padding-right: 35px;
+}
+
+.our-services .card {
+    /* border: 1px solid #e5e5e5; */
+    border-radius: 10px;
+    height: 100%;
+    border-radius: 24px;
+    box-shadow: 0px 0px 3px 0px #00000026;
+    border: none;
+}
+
+.card-title {
+    color: #5FB154;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+
+}
+
+.card-text {
+    color: var( --we-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+}
+
+.our-services img {
+    margin-bottom: 20px;
+}
+
+/* Why SEO */
+.seo-heading p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.why-seo-section h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.why-seo-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.seo-title {
+    color: #5FB154;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.seo-des {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.section-title {
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Challenges-container {
+    border-radius: 24px !important;
+    text-align: -webkit-center;
+}
+
+.Challenges-container .challenge-list {
+    background-color: #E6EFEB;
+    padding: 20px;
+    text-align: left;
+}
+
+.challenge-rounded {
+    border-radius: 24px 24px 0px 0px;
+}
+
+.challenge-roundeds {
+    border-radius: 0px 0px 24px 24px;
+}
+
+.challenge-icon {
+    font-size: 24px;
+    color: #28a745;
+    margin-right: 15px;
+}
+
+.challenge-list img {
+    height: 24px;
+}
+
+.challenge-title {
+    color: #232323;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+
+.challenge-p p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #232323;
+}
+
+.b-bottom {
+    border-bottom: 0.5px solid #707070;
+    padding-bottom: 20px;
+}
+
+.benefits-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: var(--primary-color);
+}
+
+.benefits-list li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+.challenge-title-p p {
+    color: #232323;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+
+}
+
+.challenge-titles h4 {
+    color: #5FB154;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+/*  Counter Section  */
+.counter-section {
+    background-color: var(--hook-banner) !important;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+}
+
+.counter {
+    text-align: center;
+}
+
+.counter-count {
+    border-radius: 50%;
+    position: relative;
+    color: #108A00;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    padding-right: 5px;
+    font-size: 32px;
+}
+
+.employee-p,
+.customer-p,
+.order-p,
+.design-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: var(--we-color);
+}
+
+.employee-pp {
+    color: #6F6C90;
+}
+
+.counter img {
+    vertical-align: sub;
+}
+
+.about-us-content p {
+    font-size: 18px;
+    color: #525E6F;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.about-content-container {
+    margin-right: 40px;
+}
+
+/* get-inspired-card */
+
+.get-inspired-card .card-title {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.get-inspired-card .card-text {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+}

@@ -1,0 +1,13 @@
+.case-studies-title h3 {
+    color: #108A00;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.case-studies-title p {
+    color: #667085;  
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}

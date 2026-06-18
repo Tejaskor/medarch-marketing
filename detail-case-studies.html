@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Study - Detail Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .case-study-detail {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .header-section {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .company-logo {
+      height: 50px;
+    }
+
+    h1 {
+      font-family: 'Courier New', Courier, monospace;
+      color: #2b7a78;
+      font-size: 2em;
+    }
+
+    .testimonial-quote blockquote {
+      font-style: italic;
+      font-size: 1.2em;
+      color: #555;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .client-details {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .client-photo {
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+    }
+
+    .performance-metrics,
+    .challenges-solutions,
+    .process-approach {
+      margin: 20px 0;
+    }
+
+    h3 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .performance-metrics ul,
+    .process-approach ol {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .performance-metrics li,
+    .process-approach li {
+      padding: 8px 0;
+    }
+
+    .related-case-studies {
+      margin-top: 30px;
+    }
+
+    .related-cards {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .related-card {
+      background: #eaf4f3;
+      padding: 15px;
+      border-radius: 5px;
+      text-align: center;
+      flex: 1;
+      min-width: 120px;
+    }
+
+    .related-card h4 {
+      color: #2b7a78;
+    }
+
+    .call-to-action {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .cta-button {
+      padding: 10px 20px;
+      color: #fff;
+      background-color: #2b7a78;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .cta-button:hover {
+      background-color: #3a9a89;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="case-study-detail">
+    <!-- Header Section with Logo and Name -->
+    <header class="header-section">
+      <img src="logo.png" alt="Company Logo" class="company-logo">
+      <h1>NousTalk</h1>
+    </header>
+
+    <!-- Testimonial Quote -->
+    <section class="testimonial-quote">
+      <blockquote>“My experience with Medarch marketing has been incredibly positive”</blockquote>
+    </section>
+
+    <!-- Client Details Section -->
+    <section class="client-details">
+      <img src="client-photo.jpg" alt="Cameron W." class="client-photo">
+      <div>
+        <h2>Cameron W.</h2>
+        <p>Director of Growth Marketing</p>
+      </div>
+    </section>
+
+    <!-- Performance Metrics Section -->
+    <section class="performance-metrics">
+      <h3>Performance Highlights</h3>
+      <ul>
+        <li>Increased patient engagement by <strong>60%</strong></li>
+        <li>Improved campaign ROI by <strong>45%</strong></li>
+      </ul>
+    </section>
+
+    <!-- Challenges and Solutions Section -->
+    <section class="challenges-solutions">
+      <h3>Challenges and Solutions</h3>
+      <p><strong>Challenges:</strong> The client was facing difficulty in engaging patients effectively and optimizing
+        their marketing campaigns.</p>
+      <p><strong>Solutions:</strong> We developed data-driven strategies, optimized campaign performance, and adapted
+        plans as needed.</p>
+    </section>
+
+    <!-- Process and Approach Section -->
+    <section class="process-approach">
+      <h3>Our Process</h3>
+      <ol>
+        <li><strong>Research:</strong> Conducted a thorough analysis of client needs and audience.</li>
+        <li><strong>Strategy:</strong> Built a tailored marketing strategy to target specific goals.</li>
+        <li><strong>Execution:</strong> Implemented campaigns with regular performance checks.</li>
+        <li><strong>Optimization:</strong> Adjusted campaigns based on data and feedback.</li>
+      </ol>
+    </section>
+
+    <!-- Related Case Studies Section -->
+    <section class="related-case-studies">
+      <h3>Related Case Studies</h3>
+      <div class="related-cards">
+        <div class="related-card">
+          <h4>eAmata</h4>
+          <p>Increased engagement and streamlined communication.</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="related-card">
+          <h4>HealthSync</h4>
+          <p>Enhanced patient feedback by 50%.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="call-to-action">
+      <a href="contact.html" class="cta-button">Learn How We Can Help You</a>
+    </section>
+  </div>
+</body>
+<!-- popup of get started -->
+<div class="modal fade" id="scrollableModal" tabindex="-1" aria-labelledby="scrollableModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content p-4">
+      <div class="modal-header">
+        <img src="/assets/img/logo/medarchmarketing.svg" alt="medarchmarketing">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+        <script>
+          hbspt.forms.create({
+            portalId: "8079821",
+            formId: "746c697d-10ae-4006-acec-0ebc947e903c",
+            region: "na1"
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- popup of get started -->
+</html>
